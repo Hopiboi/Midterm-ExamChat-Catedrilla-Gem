@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momo Talk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h4>Momo Talk</h4>
+    </div>
+
+    <!-- <div>Homepage</div>  -->
+    <br>
+    <br>
+    <br>
+    <center><span> Username: </span>
+    <input type="text" id="username"> </center>
+    <br>
+    <br>
+    <center> <input type="submit" id="login" value="Login"> </center>
+    <br>
+    <br>
+    <center> <span> Message: </span>
+    <input type="text" id="message"> </center>
+    <br>
+    <br>
+    <center> <input type="submit" id="send" value="Send Message"> </center>
+    <br>
+    <br>
+
+    <center>
+
+    <div id="messages" ></div>
+
+    </center>
+
+    <script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+    <script src="homepage.js"></script>
+
+</body>
+</html>
